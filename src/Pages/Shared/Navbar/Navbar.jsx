@@ -104,6 +104,12 @@ const Navbar = () => {
                                 {isServicesOpen && (
                                     <div className="absolute  mt-44 py-2 w-24 ms-36 bg-white text-green-800 rounded-md shadow-lg">
                                         <Link
+                                            to="/services"
+                                            className="block px-4 py-2 text-sm hover:text-white hover:bg-green-700"
+                                        >
+                                            Services
+                                        </Link>
+                                        <Link
                                             to="/team"
                                             className="block px-4 py-2 text-sm hover:text-white hover:bg-green-700"
                                         >
